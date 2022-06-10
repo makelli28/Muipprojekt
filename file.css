@@ -1,0 +1,42 @@
+body{
+    background-color: #cff8f7;
+}
+
+#manualna{
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+#tab1{
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+#tab2{
+    background-color: white;
+   
+}
+#tab3{
+    background-color: white;
+}
+
+#docphoto{
+    border-radius:100px;
+    
+}
+
+#asisphoto{
+    border-radius: 100px;
+}
+
+#forma{
+    background-color: white;
+}
+#text{color: red;}
+#pocetnahref{
+    background-color: black;
+}

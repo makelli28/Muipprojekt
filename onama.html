@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="file.css">
+
+
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">Fizioterapeutrska Ordinacija</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto" id="navFix" >
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Vrste terapije
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="manualnaterapija.html">Manuala Terpija</a>
+                  <a class="dropdown-item" href="elektroterapija.html">Elektroterapija</a>
+                  <a class="dropdown-item" href="mld.html">Manualna limfna drenaža</a>
+                  <a class="dropdown-item" href="tht.html">Toplo / Hladna terapija</a>
+                </div>
+              </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="onama.html">O nama <span class="sr-only">(current)</span></a>
+            </li>
+         
+            <li class="nav-item active">
+              <a class="nav-link" href="kontakt.html">Kontakt</a>
+            </li>
+           
+          </ul>
+        </div>
+    </nav>
+
+
+      <div class="jumbotron jumbotron-fluid" id="tab1">
+        <div class="container">
+          <h1 class="display-5">O našoj Ordinaciji</h1>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ad similique optio deserunt quasi, architecto esse libero quae dolores nobis perferendis laboriosam laborum tempora, velit eaque dignissimos. Temporibus, deleniti voluptatem!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, voluptatem nesciunt quia culpa hic, eveniet repellat explicabo accusantium facilis cum expedita id enim illo, quos molestias aliquam veniam porro sit!</p>
+        </div>
+      </div>
+
+      <div class="jumbotron jumbotron-fluid text-center col-lg-6 col-md-6 col-sm-6 col-xs-6 offset-3 float-md-center" id="tab2">
+        <div class="container">
+          <h1 class="display-5" id="roleid">Doctor</h1>
+          <img src="doktor.jpeg" width="200" height="200" class ="mx-auto d-block" alt="Ops! Something wrong happend!" id="docphoto">
+          <p id="textcent"><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat laboriosam veniam impedit ipsa rerum, quos deserunt quasi praesentium eveniet dicta quidem ullam illo repudiandae a ducimus nihil, consequatur molestias? Dolorem.</p>
+          <br>
+          <button type="button"  class="btn btn-primary" data-toggle="modal" data-target="#firstModal">
+            More About me
+          </button>
+          
+          <div class="modal fade" id="firstModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Doctor</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>About Me:</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptates corporis culpa, provident consectetur aliquam cupiditate quaerat, distinctio quis, sint doloremque ex dicta ratione nostrum perferendis quasi aut suscipit. Fuga! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat culpa ut fugit quod nihil eos incidunt iste minus! Doloremque iure tempora ipsa, libero nam eos itaque ullam. Facere, nulla assumenda. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae illum nostrum perferendis! Deleniti officia accusantium modi accusamus sint ut dolore minus explicabo id tenetur quos culpa, itaque corporis assumenda? Sequi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repudiandae modi, facere similique laboriosam quis ipsa, nulla quibusdam natus quasi maiores placeat eligendi excepturi earum corporis alias sapiente repellendus aperiam.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+      <div class="jumbotron jumbotron-fluid text-center col-lg-6 col-md-6 col-sm-6 col-xs-6 offset-3 float-md-center" id="tab3">
+        <div class="container">
+            <h1 class="display-5" id="roleid">Asistent</h1>
+            <img src="asistent.jpeg" width="200" class ="mx-auto d-block" height="200" alt="Ops! Something wrong happend!" id="asisphoto">
+            <p class="lead" id="textcent"><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, repudiandae minus? Corporis pariatur qui voluptatem veritatis quos maiores quod ducimus adipisci facere eligendi! Consequuntur atque ut minus quae natus iure!</p>
+            <br>
+            <button type="button"  class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                More About me
+            </button>
+              
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Asistent</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>About Me:</p>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptates corporis culpa, provident consectetur aliquam cupiditate quaerat, distinctio quis, sint doloremque ex dicta ratione nostrum perferendis quasi aut suscipit. Fuga! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat culpa ut fugit quod nihil eos incidunt iste minus! Doloremque iure tempora ipsa, libero nam eos itaque ullam. Facere, nulla assumenda. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae illum nostrum perferendis! Deleniti officia accusantium modi accusamus sint ut dolore minus explicabo id tenetur quos culpa, itaque corporis assumenda? Sequi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repudiandae modi, facere similique laboriosam quis ipsa, nulla quibusdam natus quasi maiores placeat eligendi excepturi earum corporis alias sapiente repellendus aperiam.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+</body>
+</html>
